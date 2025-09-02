@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+}
+
+#logo {
+    height: 75px;
+    width: 75px;
+    transform: translate(25px);
+}
+
+h1, h2, p, ul, li {
+    font-family: Arial, sans-serif;
+}
+
+#top-navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 75px;
+    width: 100%;
+    background: linear-gradient(90deg,#90BE6D,#6E9650);
+    align-items: center;
+    border-bottom: 5px solid #C9E3AC;
+}
+
+#brand {
+    display: flex;
+    flex-direction: row;
+    color: #F5F5F5;
+}
+
+#CompanyName {
+    margin-left: 35px;
+    margin-right: 25px;
+}
+
+#subtitle {
+    font-size: 20px;
+    transform: translateY(16px);
+}
+
+#tabs{
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    margin-left: 75px;
+    height: 100%;
+}
+
+.tab {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.15s ease;
+    color: white;
+    border-radius: 5px;
+}
+
+.tab-text {
+    transform: translateY(3px);
+    font-family: Arial, sans-serif;
+}
+
+.tab:hover {
+    background: linear-gradient(-45deg,#EAEFBD,#D9E099);
+    color: #37371F;
+}
+
+h3 {
+    margin: 10px 20px;
+}
+
+.paragraph, .Sectiontitle, fieldset{
+    margin: 20px 20px;
+    color: #37371F;
+}
+
+.Sectiontitle {
+    text-align: center;
+}
